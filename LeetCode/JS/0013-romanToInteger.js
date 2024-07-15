@@ -43,8 +43,33 @@
 console.log("13. Roman to Integer - EASY");
 
 var romanToInt = function (s) {
-    //TODO
+    romanValues = {
+        'I': 1,
+        'V': 5,
+        'X': 10,
+        'L': 50,
+        'C': 100,
+        'D': 500,
+        'M': 1000
+    }
+
+    let total = 0;
+    let prevValue = 0;
+
+    for (i = s.length - 1; i >= 0; i--) {
+        const currentValue = romanValues[s[i]];
+
+        if (currentValue >= prevValue) {
+            total += currentValue;
+        } else {
+            total -= currentValue;
+        }
+        prevValue = currentValue;
+    }
+
+    console.log(`${s} es igual a ${total}`)
+    return total;
 }
 
-let RomanNum = 'IV';
+let RomanNum = 'MCMXCIV';
 romanToInt(RomanNum);
