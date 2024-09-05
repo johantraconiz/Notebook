@@ -17,7 +17,7 @@
     Explanation: Reads 01 from right to left. Therefore it is not a palindrome.
 */
 
-console.log("9. Palindrome Number - EASY");
+console.log('9. Palindrome Number - EASY');
 
 var isPalindrome = function (x) {
     let y = x.toString().split('').reverse().join('');

@@ -17,7 +17,7 @@
     Output: [0,1]
 */
 
-console.log("1. Two sum - EASY");
+console.log('1. Two sum - EASY');
 
 var twoSum = function (nums, target) {
     for (i = 0; i < nums.length; i++) {

@@ -40,7 +40,7 @@
     Explanation: M = 1000, CM = 900, XC = 90 and IV = 4.
 */
 
-console.log("13. Roman to Integer - EASY");
+console.log('13. Roman to Integer - EASY');
 
 var romanToInt = function (s) {
     romanValues = {
