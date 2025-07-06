@@ -2,7 +2,7 @@
 
 Bash (Bourne Again SHell) es un interprete de comandos para interactuar con el sistema operativo Unix, como Linux y macOS.
 
-## Carpetas o ficheros
+## Directorios
 
 Crear una carpeta
 
@@ -20,6 +20,14 @@ Salir de una carpeta
 
 ```bash
 cd ..
+```
+
+Borrar una carpeta
+
+```bash
+rm -rf mi_carpeta
+
+rmdir mi_carpeta
 ```
 
 ## Archivos
