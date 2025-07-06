@@ -62,6 +62,11 @@ Copiar todo hasta el coreeo de lo que muestra personal.pub y agregarlo a las SSH
 git clone git@github-personal:TU-USUARIO/REPO.git
 ```
 
+Nota:
+
+* Atención en @github-aida esto es el Hostname configurado en ~/.ssh/config de SSH.
+* Lo que sigue despues de los ":" es el path de clone con SSH que se obtiene del repo en github o gitlab en el boton de code que permite clonar el repo.
+
 ## Verificar que todo funciona
 
 ```bash
@@ -69,3 +74,14 @@ ssh -T git@github-personal
 ```
 
 resultado: Hi johantraconiz! You've successfully authenticated...
+
+## Actualizar origen del repo para vincular la autenticación
+
+```bash
+git remote set-url origin git@github-aida:aida-src/aida-service-conversations.git
+```
+
+Nota:
+
+* Atención en @github-aida esto es el Hostname configurado en ~/.ssh/config de SSH.
+* Lo que sigue despues de los ":" es el path de clone con SSH que se obtiene del repo en github o gitlab en el boton de code que permite clonar el repo.

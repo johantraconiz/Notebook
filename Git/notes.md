@@ -49,3 +49,14 @@ Nota: Esta es la forma correcta de configurar Git, ya no es necesario usar la ex
     name = Johan Traconiz
     email = johan.traconiz@gmail.com
 ```
+
+## Actualizar origen del repo para vincular la autenticación
+
+```bash
+git remote set-url origin git@github-aida:aida-src/aida-service-conversations.git
+```
+
+Nota:
+
+* Atención en @github-aida esto es el Hostname configurado en ~/.ssh/config de SSH.
+* Lo que sigue despues de los ":" es el path de clone con SSH que se obtiene del repo en github o gitlab en el boton de code que permite clonar el repo.
