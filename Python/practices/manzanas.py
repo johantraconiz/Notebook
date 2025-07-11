@@ -10,31 +10,24 @@ Ahora necesito que crees un programa que:
 7. Finalmente que imprima un mensaje indicando cuántas manzanas le quedaron disponibles después de la venta.
 """
 
-# Se mantiene la estructura de inventario para futura extensibilidad.
 inventory = [{"name": "Manzana", "stock": 20, "price": 5}]
 
 
 def welcome_and_get_name():
-    """Da la bienvenida y solicita el nombre del usuario."""
     print("Bienvenido, ¿cuál es tu nombre?")
     name = input()
     return name
 
 
 def greet_and_show_inventory(user_name, current_inventory):
-    """Saluda al usuario y muestra el inventario."""
     print(f"\nHola, {user_name}. Contamos con:")
     for product in current_inventory:
-        # Usamos 's' para pluralizar si el stock no es 1. Simple pero efectivo.
-        plural = "s" if product["stock"] != 1 else ""
         print(
-            f"- {product['stock']} {product['name']}{plural} a un precio de ${product['price']} cada una."
+            f"- {product['stock']} {product['name']} a un precio de ${product['price']} cada una."
         )
 
 
 def process_shopping(current_inventory):
-    """Procesa la compra de manzanas, validando la entrada y actualizando el stock."""
-    # Asumimos que solo vendemos manzanas por ahora, como en el código original.
     apple_product = current_inventory[0]
 
     while True:
@@ -49,7 +42,7 @@ def process_shopping(current_inventory):
 
             if quantity == 0:
                 print("No has comprado nada. ¡Vuelve pronto!")
-                return  # Salimos de la función si no compra nada.
+                return
 
             if quantity > apple_product["stock"]:
                 print(
@@ -57,7 +50,6 @@ def process_shopping(current_inventory):
                 )
                 continue
 
-            # Si la entrada es válida, procesamos la compra
             total_price = quantity * apple_product["price"]
             apple_product["stock"] -= quantity
 
@@ -66,7 +58,7 @@ def process_shopping(current_inventory):
                 f"Ahora restan {apple_product['stock']} manzanas en nuestro inventario."
             )
             print("¡Gracias por tu compra!")
-            break  # Salimos del bucle de compra
+            break
 
         except ValueError:
             print("Entrada inválida. Por favor, ingresa un número entero.")
