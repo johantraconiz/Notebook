@@ -56,6 +56,10 @@ Nota: Esta es la forma correcta de configurar Git, ya no es necesario usar la ex
 git remote set-url origin git@github-aida:aida-src/aida-service-conversations.git
 ```
 
+```bash
+git remote set-url origin git@github-aida:aida-src/aida-utils-commons.git
+```
+
 Nota:
 
 * Atención en @github-aida esto es el Hostname configurado en ~/.ssh/config de SSH.
