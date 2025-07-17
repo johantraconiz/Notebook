@@ -11,6 +11,10 @@ El Machine Learning no requiere ser programada explicitamente para generar ciert
 
 ¿Cómo el Machine Learning se aplica en soluciones reales?
 
+- Sisteas de Autos automonos, como Tesla.
+- En algoritmos de recomendacion de cotenido, como YouTube.
+- Lenguaje Natural en conversaciones de un negocio.
+
 ## Algoritmos de Machine Learning
 
 ## Deep Learning
