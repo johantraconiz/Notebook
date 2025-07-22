@@ -70,6 +70,20 @@ Se pueden utilizar para encontrar subconjuntos de un conjunto de datos. Ej: Se t
 
 - Aprendizaje por refuerzo: Se tiene un agente que aprende en un cierto ambiente por medio de acciones y reacciones. A cada acción se le pondeja un puntaje y el agente se reajustara cada vez para logarar puntajes altos. Ej: Utilizado en Ajedres o Robots.
 
+## Datos
+
+Los datos son el recurso fundamental más importante en el proceso de ML.
+La obtención de datos es crucial, ya que su calidad refleja directamente que tan bueno o malo resulte el modelo final.
+
+Se requieren por lo menos los siguientes puntos para procesar datos:
+
+- Obtener los datos de diferentes fuentes.
+- Limpieza de datos, procesamiento de homologación. Crear nuestra propia tabla de datos (datasets).
+- Analizar qué características nos son relevantes para nuestra situación. Ej. Determinar el valor de una casa.
+- Separar los datos de las etiquetas. Ej. Datos pueden ser número de habitaciones, zona, alberca. La etiqueta puede ser el precio.
+
+Si no se retiran datos irrelevantes, el modelo puede encontrar malos patrones que pueden generar malos resultados. Ej. El valor de una casa puede depender de la zona, pero no del número de buzón.
+
 ## Deep Learning
 
 ## Redes Neuronales
