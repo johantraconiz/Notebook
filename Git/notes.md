@@ -64,3 +64,29 @@ Nota:
 
 * Atención en @github-aida esto es el Hostname configurado en ~/.ssh/config de SSH.
 * Lo que sigue despues de los ":" es el path de clone con SSH que se obtiene del repo en github o gitlab en el boton de code que permite clonar el repo.
+
+## Nombrar ramas
+
+* Nueva funcionalidad → feat/
+* Bug → fix/ o hotfix/
+* Cambio visual (CSS, imágenes) → style/
+* Documentación → docs/
+* Optimización de rendimiento → perf/
+* Refactorización → refactor/
+* Tareas de mantenimiento → chore/
+* Tests → test/
+
+| **Prefijo**         | **Cuándo usarlo**                                                                                     | **Ejemplo**                        |
+| ------------------- | ----------------------------------------------------------------------------------------------------- | ---------------------------------- |
+| **feat/** (feature) | Para **nuevas funcionalidades** o grandes cambios.                                                    | `feat/add-dark-mode`               |
+| **fix/**            | Para **corrección de bugs**.                                                                          | `fix/login-crash-on-ios`           |
+| **hotfix/**         | Igual que `fix`, pero para **bugs críticos en producción**.                                           | `hotfix/payment-gateway-timeout`   |
+| **chore/**          | Para **tareas de mantenimiento**, sin afectar la lógica. Ej: dependencias, build, renombrar archivos. | `chore/update-npm-packages`        |
+| **style/**          | Para **cambios visuales** o de formato, sin modificar lógica (CSS, imágenes, alineaciones).           | `style/update-hero-banner`         |
+| **refactor/**       | Para **reorganizar o mejorar código** sin cambiar funcionalidad.                                      | `refactor/simplify-auth-service`   |
+| **perf/**           | Para **mejoras de rendimiento**.                                                                      | `perf/optimize-image-loading`      |
+| **test/**           | Para **añadir o modificar tests**.                                                                    | `test/add-user-service-unit-tests` |
+| **docs/**           | Para **documentación** o cambios en el README.                                                        | `docs/add-api-usage-guide`         |
+| **build/**          | Para **cambios en la configuración de build**, CI/CD, Docker, etc.                                    | `build/update-dockerfile`          |
+| **ci/**             | Para scripts o configuraciones de **integración continua**.                                           | `ci/fix-github-actions-pipeline`   |
+| **revert/**         | Para **revertir un cambio anterior**.                                                                 | `revert/revert-user-auth-update`   |
