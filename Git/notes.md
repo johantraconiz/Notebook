@@ -90,3 +90,10 @@ Nota:
 | **build/**          | Para **cambios en la configuración de build**, CI/CD, Docker, etc.                                    | `build/update-dockerfile`          |
 | **ci/**             | Para scripts o configuraciones de **integración continua**.                                           | `ci/fix-github-actions-pipeline`   |
 | **revert/**         | Para **revertir un cambio anterior**.                                                                 | `revert/revert-user-auth-update`   |
+
+## Contribuir a un repo
+
+* git checkout dev
+* git pull
+* ⁠git checkout mi-branch
+* ⁠git merge dev
