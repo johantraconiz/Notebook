@@ -93,7 +93,9 @@ Nota:
 
 ## Contribuir a un repo
 
+```bash
 * git checkout dev
 * git pull
 * ⁠git checkout mi-branch
 * ⁠git merge dev
+```
