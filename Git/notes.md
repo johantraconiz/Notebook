@@ -93,6 +93,8 @@ Nota:
 
 ## Contribuir a un repo
 
+Esto ocurre cuando se está trabajando en una rama de cambios que debe estar actualizada con, por ejemplo la rama dev.
+
 ```bash
 * git checkout dev
 * git pull
