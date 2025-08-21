@@ -98,6 +98,7 @@ Esto ocurre cuando se está trabajando en una rama de cambios que debe estar act
 ```bash
 * git checkout dev
 * git pull
-* ⁠git checkout mi-branch
+* ⁠git checkout my-branch
 * ⁠git merge dev
+* git push origin my-branch
 ```
