@@ -33,9 +33,7 @@ while True:
     print("1. Start game")
     print("2. Exit")
     print("**********************")
-    print("Write an option")
-
-    option = input()
+    option = input("Write an option: ")
 
     if option == "1":
         my_game()
