@@ -37,5 +37,3 @@ Cualquier programa informático se construye ensamblando primitivas básicas de 
 
 * **Compiladores e Intérpretes:** El software evoluciona creando capas sobre capas. Un **compilador** o intérprete traduce lenguajes de alto nivel (como Python) o bajo nivel (como C) a las instrucciones de máquina de ceros y unos.
 * **APIs e Inteligencia Artificial:** La ingeniería moderna utiliza **APIs** para construir sobre soluciones existentes. Las herramientas de IA sirven como asistentes o copilotos, pero el ingeniero mantiene el rol de piloto que comprende la lógica de fondo para dirigir y validar la solución.
-
-💡 Si lo deseas, podemos analizar cómo se implementa uno de estos conceptos en Python o explorar en detalle la lógica de la búsqueda binaria.

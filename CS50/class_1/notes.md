@@ -1,5 +1,7 @@
 # CS50 Class 1
 
+---
+
 ## Proceso de compilación
 
 Source Code (Ej. C) -> Compilador (Ej.clang) -> Machine Code (0s y 1s)
@@ -23,3 +25,5 @@ Ejecuta el programa
 ```bash
 ./programa
 ```
+
+---
