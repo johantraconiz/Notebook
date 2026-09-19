@@ -27,3 +27,6 @@ Ejecuta el programa
 ```
 
 ---
+
+GUI es Graphics User Interface (Interfaz gráfica de usuario)
+CLI es Command Line Interface (Interfaz de línea de comandos)
